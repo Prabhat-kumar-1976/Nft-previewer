@@ -11,6 +11,7 @@ body{
     background-color: hsl(216, 50%, 16%);
     height: fit-content;
     width: 300px;
+    max-width: 100%;
     padding: 18px 18px 18px 18px;
     box-shadow: 2px 3px 8px 0px hsl(216deg 50% 16%);
     border-radius: 14px;
@@ -53,6 +54,7 @@ body{
     height: 300px;
     border-radius: 13px;
     z-index: 1;
+    max-width: 100%;
 }
 
 
