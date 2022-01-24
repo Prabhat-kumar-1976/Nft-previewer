@@ -30,19 +30,23 @@ body{
     border-radius: 13px;
     z-index: 2;
     cursor: pointer;
+    transition: all 3s ease-in-out;
 }
 .img-hover{
     display: none;
     position: absolute;
     z-index: 5;
+    transition: all 3s ease-in-out;
 }
 .im-hover:hover  {
     background-color:  hsla(178, 100%, 50%, 0.5);
     /* opacity: 0.5; */
     display: flex;
+/*     transition: all 3s ease-in-out; */
 }
 .im-hover:hover > .img-hover {
     display: flex;
+    transition: all 3s ease-in-out;
 }
 .img1{
     width: 300px;
@@ -56,6 +60,7 @@ body{
     cursor: pointer;
     color: hsl(0, 0%, 100%) ;
     font-weight: 600;
+    transition: all 3s ease-in-out;
 }
 .main > h3:hover{
     color: hsl(178, 100%, 50%);
@@ -96,6 +101,7 @@ body{
 .span4{
     color: hsl(0, 0%, 100%);
     cursor: pointer;
+    transition: all 3s ease-in-out;
 }
 .span4:hover{
     color: hsl(178, 100%, 50%);
